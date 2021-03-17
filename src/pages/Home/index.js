@@ -1,3 +1,5 @@
+import searchImg from '../../assets/img/search.png'
+
 function Home() {
     return (
         <>
@@ -10,7 +12,7 @@ function Home() {
                         </p>
                     </div>
                     <div className='main_search-bar'>
-                        <img src='img/search.png' alt='Search' />
+                        <img src={searchImg} alt='Search' />
                         <input className='search_bar' type='search' />
                     </div>
                 </div>
@@ -48,7 +50,7 @@ function Home() {
                         <li className='dish-item'>
                             <img
                                 className='dish-img'
-                                src='img/osh2.png'
+                                src='https://telegra.ph/file/b1b48d3f4a9b98b32b525.jpg'
                                 alt='dish'
                                 width={132}
                                 height={132}
@@ -62,7 +64,7 @@ function Home() {
                         <li className='dish-item'>
                             <img
                                 className='dish-img'
-                                src='img/osh.png'
+                                src='https://telegra.ph/file/b1b48d3f4a9b98b32b525.jpg'
                                 alt='dish'
                                 width={132}
                                 height={132}
@@ -76,7 +78,7 @@ function Home() {
                         <li className='dish-item'>
                             <img
                                 className='dish-img'
-                                src='img/dish.png'
+                                src='https://telegra.ph/file/b1b48d3f4a9b98b32b525.jpg'
                                 alt='dish'
                                 width={132}
                                 height={132}
@@ -90,7 +92,7 @@ function Home() {
                         <li className='dish-item'>
                             <img
                                 className='dish-img'
-                                src='img/dish.png'
+                                src='https://telegra.ph/file/b1b48d3f4a9b98b32b525.jpg'
                                 alt='dish'
                                 width={132}
                                 height={132}

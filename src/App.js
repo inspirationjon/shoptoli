@@ -10,7 +10,7 @@ function App() {
     return (
         <>
             <Navbar />
-            <Public path='/' component={Home} exact />
+            <Public path='/home' component={Home} exact />
             <Public path='/filtered' component={Filtered} exact />
             <Public path='/orders' component={Orders} exact />
             <Public path='/settings' component={Settings} exact />

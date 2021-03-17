@@ -5,7 +5,7 @@ function Navbar() {
     return (
         <>
             <div className='side_nav'>
-                <NavLink className='site_logo-link' to='/'>
+                <NavLink className='site_logo-link' to='/home'>
                     <img
                         className='site_logo'
                         src={Logo}
@@ -19,7 +19,7 @@ function Navbar() {
                         <NavLink
                             className='item-link'
                             activeClassName='nav_list-item-active'
-                            to='/main'>
+                            to='/home'>
                             <svg
                                 className='item-img'
                                 width={20}

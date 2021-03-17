@@ -1,3 +1,8 @@
+import coinImg from '../../assets/img/Coin.png'
+import orderImg from '../../assets/img/Order.png'
+import customerImg from '../../assets/img/Customer.png'
+import dishImg from '../../assets/img/dish.png'
+
 function Orders() {
     return (
         <>
@@ -19,7 +24,7 @@ function Orders() {
                                             <div className='list-item-img-wrapper'>
                                                 <img
                                                     className='list-item-img'
-                                                    src='img/Coin.png'
+                                                    src={coinImg}
                                                     alt='Dollar'
                                                     width={24}
                                                     height={24}
@@ -41,7 +46,7 @@ function Orders() {
                                             <div className='list-item-img-wrapper'>
                                                 <img
                                                     className='list-item-img'
-                                                    src='img/Order.png'
+                                                    src={orderImg}
                                                     alt='Dollar'
                                                     width={24}
                                                     height={24}
@@ -60,7 +65,7 @@ function Orders() {
                                             <div className='list-item-img-wrapper'>
                                                 <img
                                                     className='list-item-img'
-                                                    src='img/Customer.png'
+                                                    src={customerImg}
                                                     alt='Dollar'
                                                     width={24}
                                                     height={24}
@@ -89,7 +94,7 @@ function Orders() {
                                     <li className='most-ordered-item'>
                                         <img
                                             className='most-ordered-img'
-                                            src='img/dish.png'
+                                            src={dishImg}
                                             alt='dish'
                                             width={50}
                                             height={50}
@@ -106,7 +111,7 @@ function Orders() {
                                     <li className='most-ordered-item'>
                                         <img
                                             className='most-ordered-img'
-                                            src='img/dish.png'
+                                            src={dishImg}
                                             alt='dish'
                                             width={50}
                                             height={50}
